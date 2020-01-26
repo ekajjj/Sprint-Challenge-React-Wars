@@ -1,0 +1,9 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+.peopleName{
+    font-size: 2rem;
+    color: red;
+}
