@@ -8,7 +8,7 @@ const PersonCard = props => {
         <>
         <br/>
             <Card>
-            <CardHeader>{name}</CardHeader>
+            <div className="peopleName"><CardHeader>{name}</CardHeader></div>
             <CardBody>
                 <CardText>Gender: {gender}</CardText>
                {/* 
