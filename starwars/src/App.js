@@ -26,6 +26,11 @@ const App = () => {
   }, [page]);
   
   const nextPage = () => {
+    //resets page to 1 if reaches end    
+    console.log(page);
+    if(page >= 9){
+      setPage(0)
+    }
     setPage(page => page + 1)
   }
   const previousPage = () => {
